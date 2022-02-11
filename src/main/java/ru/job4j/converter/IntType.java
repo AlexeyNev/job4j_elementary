@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IntType {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int value = in.nextInt();
+        short value = in.nextShort();
         System.out.println(value);
     }
 }
