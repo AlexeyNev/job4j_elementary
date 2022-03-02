@@ -8,5 +8,6 @@ public class Greeting {
         int year = 2022;
         idea = idea + idea + year;
         System.out.println(idea);
+
     }
 }
