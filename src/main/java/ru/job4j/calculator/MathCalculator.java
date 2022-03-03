@@ -8,10 +8,12 @@ public class MathCalculator {
         return sum(first, second)
                 + multiply(first, second);
     }
+
     public static double subAndMult(double first, double second) {
         return sub(first, second)
                 + mult(first, second);
     }
+
     public static double sumAndMultiplyAndSubAndMult(double first, double second) {
         return
                 sum(first, second) + multiply(first, second) + sub(first, second) + mult(first, second);
