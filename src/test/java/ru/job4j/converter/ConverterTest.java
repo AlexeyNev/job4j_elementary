@@ -17,7 +17,7 @@ public class ConverterTest {
     @Test
     public void whenConvert140RblThen2Dollar() {
         float in = 140;
-        float expected = 2;
+        float expected = -1;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
@@ -26,7 +26,7 @@ public class ConverterTest {
     @Test
     public void whenConvert180RblThen3Dlr() {
         float in = 180;
-        float expected = 3;
+        float expected = -1;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
