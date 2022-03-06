@@ -5,9 +5,9 @@ public class Max {
         return left >= right ? left : right;
     }
 
-
     public static void main(String[] args) {
         int s = Max.max(2, 1);
         System.out.println(s);
+
     }
 }
