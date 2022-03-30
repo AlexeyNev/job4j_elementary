@@ -6,8 +6,9 @@ public class ArrayDefinition {
         names[0] = "Alex";
         names[1] = "Andrew";
         names[2] = "Alla";
-        System.out.println(names[0]);
-        System.out.println(names[1]);
-        System.out.println(names[2]);
+        names[3] = "Anton";
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
     }
 }
