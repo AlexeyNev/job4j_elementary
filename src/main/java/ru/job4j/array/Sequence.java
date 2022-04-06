@@ -2,7 +2,7 @@ package ru.job4j.array;
 
 public class Sequence {
     public static void main(String[] args) {
-        int[][] array = new int[3][9];
+        int[][] array = new int[3][3];
         array[0][0] = 1;
         array[0][1] = 2;
         array[0][2] = 3;
@@ -12,6 +12,5 @@ public class Sequence {
         array[0][6] = 7;
         array[0][7] = 8;
         array[0][8] = 9;
-        System.out.println(array[0][8]);
     }
 }
