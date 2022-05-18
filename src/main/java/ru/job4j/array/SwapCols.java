@@ -5,7 +5,7 @@ public class SwapCols {
         for (int i = 0; i < data.length; i++) {
             int tmp = data[i][src];
             data[i][src] = data[i][dst];
-            data[i][dst]= tmp;
+            data[i][dst] = tmp;
         }
 
     }

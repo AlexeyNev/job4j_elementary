@@ -1,6 +1,5 @@
 package ru.job4j.array;
 
-
 public class RightDiagonal {
     public static int[] diagonal(int[][] data) {
         int[] rsl = new int[data.length];

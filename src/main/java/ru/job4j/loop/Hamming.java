@@ -4,9 +4,10 @@ public class Hamming {
     public static int checkStrings(String left, String right) {
         int i = 0, count = 0;
         while (i < left.length()) {
-            if (left.charAt(i) != right.charAt(i))
+            if (left.charAt(i) != right.charAt(i)) {
                 count++;
-            i++;
+                i++;
+            }
         }
         return count;
     }
