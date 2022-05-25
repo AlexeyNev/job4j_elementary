@@ -15,7 +15,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to30then2() {
+    public void when00to30then3() {
         int expected = 3;
         Point a = new Point(0, 0);
         Point b = new Point(0, 3);
@@ -24,7 +24,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to40then2() {
+    public void when00to40then4() {
         int expected = 4;
         Point a = new Point(0, 0);
         Point b = new Point(0, 4);
@@ -33,7 +33,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to50then2() {
+    public void when00to50then5() {
         int expected = 5;
         Point a = new Point(0, 0);
         Point b = new Point(0, 5);
