@@ -41,4 +41,17 @@ public class PointTest {
         Assert.assertEquals(expected, dist, 0.01);
     }
 
+    @Test
+    public void when() {
+        int expect = 5;
+        Point a = new Point(2, 3, 4);
+        Point b = new Point(4, 5, 6);
+        Point point = new Point(a, b);
+        double out = a.distance(b.distance(c));
+
+        Assert.assertThat(expect, out, 0.01);
+
+    }
+}
+
 }
